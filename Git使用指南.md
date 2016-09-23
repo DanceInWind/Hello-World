@@ -42,4 +42,5 @@ $git clean -fdx
 http://blog.csdn.net/ithomer/article/details/7529022
 http://gitref.org/zh/remotes/
 http://backlogtool.com/git-guide/cn/stepup/stepup2_4.html
+http://zensheno.blog.51cto.com/2712776/490748
 
