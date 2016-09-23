@@ -41,5 +41,5 @@ $git clean -fdx
 参考资料：
 http://blog.csdn.net/ithomer/article/details/7529022
 http://gitref.org/zh/remotes/
-
+http://backlogtool.com/git-guide/cn/stepup/stepup2_4.html
 
