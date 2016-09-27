@@ -37,10 +37,17 @@ $git clean -fdx
 上传本地tag到远程仓库：$ git push origin --tags
 创建带注释的tag：$ git tag -a [name] -m 'yourMessage'
 
+5.添加忽略
+根目录下修改
+.gitignore
+删除添加在repo里但是又要ignore的文件
+After editing .gitignore to match the ignored files, you can do "git ls-files -ci --exclude-standard" to see the files that are included in the exclude lists; you can then do "git ls-files -ci --exclude-standard -z | xargs -0 git rm --cached" to remove them from the repository (without deleting them from disk).
+
 
 参考资料：
 http://blog.csdn.net/ithomer/article/details/7529022
 http://gitref.org/zh/remotes/
 http://backlogtool.com/git-guide/cn/stepup/stepup2_4.html
 http://zensheno.blog.51cto.com/2712776/490748
+http://stackoverflow.com/questions/7527982/applying-gitignore-to-committed-files
 
